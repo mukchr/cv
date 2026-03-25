@@ -16,6 +16,14 @@ p {
     margin: 2px;
 }
 
+#contact-info {
+    padding-top: 7px;
+}
+
+#contact-info * {
+    display: inline;
+}
+
 .title {
     display: flex;
     justify-content: space-between;
