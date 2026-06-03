@@ -38,6 +38,9 @@ a:visited{
     align-items: baseline
 }
 
+.date {
+    text-align: end;
+}
 
 .title p {
     font-weight: bold;
@@ -79,6 +82,10 @@ a:visited{
         flex-direction: row !important;
         justify-content: space-between !important;
         align-items: baseline;
+    }
+
+    div {
+        break-inside: avoid;
     }
 
     a {
